@@ -1,0 +1,93 @@
+.signup__data{
+    display: flex;
+    flex-direction: column;
+    
+
+
+
+}
+
+.signup__header{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.signup__header > img{
+    /* display: flex; */
+    margin: 20px  80px ;
+    width: 12%;
+
+}
+.signup__header > h3{
+margin:30px auto;
+padding: 0px;
+font-weight: 500;
+font-size: 30px;
+
+}
+.Singup__input{
+  
+    display: flex;
+    background-color: #fff;
+
+    /* width: 30%; */
+    flex: 0.3;
+    margin: 0px  35%;
+    padding: 3%;
+    flex-direction: column;
+    border-radius: 15px;
+}
+.Singup__input > input{
+  max-width: 100%;
+  height: 25px;
+  margin: 15px 0px;
+}
+.Singup__input > Label{
+   font-size: 15px;
+   color: #333;
+    margin-bottom: -13px;
+   
+}
+.Singup__input > span{
+    text-align: center;
+    margin: 15px 0px;
+    font-size: 13px;
+    color: #333;
+  /* max-width: 100%;
+  height: 25px;
+  margin: 15px 0px; */
+}
+.Signup__join{
+    width: 80%;
+    margin: 0px 10%;
+    height: 40px;
+    border-radius: 20px;
+    border: 0px;
+    background-color: #0047ab;
+    cursor: pointer;
+    color: white;
+}
+.Signup__join:hover{
+  
+    background-color: #1c5eb9;
+ 
+}
+.signup__footer{
+    
+    display: flex;
+    margin-top: 30px;
+justify-content: center;
+}
+.singup__button{
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    color: #0047ab;
+    cursor: pointer;
+
+
+
+}

@@ -1,0 +1,60 @@
+.feed{
+    display: flex;
+    flex-direction: 0.6;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    margin: 0px 20px ;
+    height: 110px;
+    border-radius: 10px;
+}
+.feed__input{
+    display: flex;
+    text-align: center;
+    
+}
+.feed__input>form{
+    display: flex;
+    /* text-align: center; */
+    margin: auto 0px ;
+    flex: 1;
+    
+}
+.feed__input > form > input[type='text']{
+   border: 1px solid #ccc;
+   height: 30px;
+   border-radius: 20px;
+   display: flex;
+   flex: 0.95;
+   outline: none;
+
+}
+.feed__input > form > input[type='submit']{
+   display: none;
+    
+}
+
+.feed__share{
+    display: flex;
+    justify-content:  space-between;
+    margin-top: -10px;
+
+
+}
+.feed__share__content{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 18px;
+    /* width: 100%; */
+    cursor: pointer;
+}
+.feed__share__content:hover{
+    background-color: #eee;
+}
+
+   
+.feed__share__content> p{
+    font-weight: 600;
+    color: #333;
+    margin-left: 10px;
+}
