@@ -15,7 +15,7 @@ const Post = (props) => {
             <div className="post__header">
                       <div className="post__header__left">
                           <Avatar className="avatar" style={{ "width": "40px", "height": "40px", margin
-                        :"10px" }} src={props.photoUrl}></Avatar>
+                        :"10px" }} src={props.photoURl}></Avatar>
 
                         <div className="post__header__left__data">
                         <h5>{props.name}</h5>
